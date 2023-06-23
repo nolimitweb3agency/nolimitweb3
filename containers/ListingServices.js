@@ -3,6 +3,12 @@ import cmc from "../public/assets/cmc.png";
 import gecko from "../public/assets/gecko.png";
 import etherscan from "../public/assets/etherscan.png";
 import bscscan from "../public/assets/bscscan.png";
+import mexc from "../public/assets/mexc.png";
+import gate from "../public/assets/gate.png";
+import kucoin from "../public/assets/kucoin.png";
+
+
+
 
 export default function ListingServices({id}) {
   return (
@@ -10,8 +16,8 @@ export default function ListingServices({id}) {
       <div className="flex-col flex items-center text-xl pt-[600px] sm:pt-[300px] md:pt-48 lg:pt-24 justify-center  w-screen h-full ">
         <div  className="text-black text-4xl py-24 font-bold ">Our Services</div>
 
-        <div className="flex flex-col items-start">
-        <div className="text-black text-4xl py-8 font-bold ">Listing</div>
+        <div className="flex flex-col items-start py-12">
+        <div className="text-black text-4xl py-8 font-bold pl-20">Listing</div>
         <div id={id} className="flex flex-wrap gap-4  justify-center  ">
           <Card
             logo={cmc}
@@ -32,6 +38,21 @@ export default function ListingServices({id}) {
             logo={bscscan}
             title="BscScan fast-track listing service (Expedited) [12 hours]"
             price="$1,500"
+          ></Card>
+          <Card
+            logo={mexc}
+            title="MEXC fast-track listing service (Expedited) [12 hours]"
+            price="Please Contact Us for Price"
+          ></Card>
+          <Card
+            logo={gate}
+            title="GATE.IO fast-track listing service (Expedited) [12 hours]"
+            price="Please Contact Us for Price"
+          ></Card>
+          <Card
+            logo={kucoin}
+            title="KuCoin fast-track listing service (Expedited) [12 hours]"
+            price="Please Contact Us for Price"
           ></Card>
         </div>
       </div></div>

@@ -8,7 +8,7 @@ export default function Card({logo, title,price}){
     return(
         <div className="flex flex-col max-w-[320px] py-4 ">
             <div className={roboto.className}>
-            <div className="bg-[#F5FAFE] border border-black h-60 w-full rounded-lg  justify-center items-center flex p-12">
+            <div className="bg-[#FFFBED]  h-60 w-full rounded-lg  justify-center items-center flex p-12">
                 <Image src={logo} ></Image>
             </div>
             <div className="text-black py-2 text-base">{title}</div>
