@@ -76,20 +76,21 @@ export default function Navbar() {
               <div className={indie.className}>
                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
                   <li className="text-black font-black text-2xl">
-                    <div
+                  <div
                       className="cursor-pointer"
-                      onClick={() => goToSection("#home")}
-                    >
-                      services
-                    </div>
-                  </li>
-                  <li className="text-black  font-black text-2xl">
-                    <div
-                      className="cursor-pointer"
-                      onClick={() => goToSection("#about")}
+                      onClick={() => goToSection("#clients")}
                     >
                       clients
                     </div>
+                  </li>
+                  <li className="text-black  font-black text-2xl">
+                  <div
+                      className="cursor-pointer"
+                      onClick={() => goToSection("#services")}
+                    >
+                      services
+                    </div>
+                   
                   </li>
                 </ul>
               </div>

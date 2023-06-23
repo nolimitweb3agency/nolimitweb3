@@ -4,11 +4,11 @@ import gecko from "../public/assets/gecko.png";
 import etherscan from "../public/assets/etherscan.png";
 import bscscan from "../public/assets/bscscan.png";
 
-export default function ListingServices() {
+export default function ListingServices({id}) {
   return (
     <div classname="flex flex-col justify-center items-center">
       <div className="flex-col flex items-center text-xl pt-16 md:pt-36  justify-center  w-screen h-full ">
-        <div className="text-black text-4xl py-8 font-bold ">Our Services</div>
+        <div id={id} className="text-black text-4xl py-8 font-bold ">Our Services</div>
 
         <div className="flex flex-col items-start">
         <div className="text-black text-4xl py-8 font-bold ">Listing</div>

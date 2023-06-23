@@ -15,16 +15,12 @@ export default function Home() {
     <main
     className="flex max-w-full min-h-screen flex-col bg-cover bg-white"    >
      <Hero></Hero>
-     <Projects ></Projects>
-     <ListingServices></ListingServices>
+     <Projects id="#clients"></Projects>
+     <ListingServices id="#services"></ListingServices>
      <TrendingServices></TrendingServices>
      <SentimentBoost></SentimentBoost>
      <Shilling></Shilling>
      <Development></Development>
-
-      
-
-     
     </main>
   )
 }

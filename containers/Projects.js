@@ -10,11 +10,11 @@ import shiba from "../public/assets/shibaa.png";
 import Image from "next/image";
 
 const indie = Indie_Flower({ weight: "400", subsets: ["latin"] });
-export default function Projects() {
+export default function Projects({id}) {
   return (
     <div className="h-72 flex flex-col items-center pt-12  text-center  w-screen absolute mt-[800px] md:mt-[600px] bg-blue-600">
       <div className={lili.className}>
-        <div className="text-white font-thin text-3xl">
+        <div id={id} className="text-white font-thin text-3xl">
           Trusted by well-known projects
         </div>
       </div>
