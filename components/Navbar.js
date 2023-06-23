@@ -23,8 +23,8 @@ export default function Navbar() {
             <div className="flex w-full items-center justify-between py-3 md:py-5 md:block">
               <div className="flex justify-center items-center">
                 <div className={indie.className}>
-                  <div className="text-2xl text-black font-extrabold">
-                    NO LIMIT WEB3
+                  <div className="text-4xl text-black font-extrabold">
+                    No Limit Web3
                   </div>
                 </div>
               </div>
@@ -98,9 +98,10 @@ export default function Navbar() {
 
           <div className="w-1/12">
             <div className={indie.className}>
-            <div className="py-2 font-black hidden md:flex justify-center text-white rounded-xl cursor-pointer  px-4 bg-blue-600">
-              Contact
-            </div></div>
+              <div className="py-2 font-black hidden md:flex justify-center text-white rounded-xl cursor-pointer  px-4 bg-blue-600">
+                Contact
+              </div>
+            </div>
           </div>
         </div>
       </nav>

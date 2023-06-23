@@ -15,7 +15,7 @@ export default function Hero() {
 
         <div className={indie.className}>
           <div className="text-center  text-black text-xl sm:text-2xl px-4  pt-8">
-            Welcome to Marketing — The #1 crypto marketing agency known for
+            Welcome to No Limit Web3 Marketing — The #1 crypto marketing agency known for
             aggressive crypto shill campaigns.
           </div>
         </div>
