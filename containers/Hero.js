@@ -13,18 +13,18 @@ const lili = Lilita_One({ weight: "400", subsets: ["latin"] });
 
 export default function Hero({ id }) {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex-col flex items-center text-xl pt-16 md:pt-36  md:justify-start  w-screen h-screen">
+    <div className="flex flex-col justify-center items-center bg-hero bg-cover bg-center w-screen h-screen ">
+      <div className="flex-col flex items-center text-xl pt-[500px] md:pt-36 md:justify-start ">
         <div className={rowdie.className}>
           <div className="flex flex-wrap items-center justify-center ">
-            <div className="text-black text-center text-4xl sm:text-6xl md:px-0 px-16">
+            <div className="text-white text-center text-4xl md:text-5xl lg:text-6xl md:px-0 px-16">
               We will make your token go viral
             </div>
             <div className="text-5xl px-4 animate-bounce lg:pt-0 pt-8">🚀</div>
           </div>
         </div>
           <div className={rowdie.className}>
-            <div className="text-center  text-black text-xl sm:text-2xl px-4  pt-8">
+            <div className="text-center  text-white text-xl sm:text-2xl px-4  pt-8">
               Welcome to No Limit Web3 Marketing — The #1 crypto marketing
               agency known for aggressive crypto shill campaigns.
             </div>
@@ -47,7 +47,7 @@ export default function Hero({ id }) {
             symbol="👥"
           ></Box>
         </div>
-        <div className="h-72 flex flex-col mt-24 items-center pt-12  text-center  w-screen    bg-blue-600">
+        <div className="h-72 flex flex-col mt-24 items-center pt-12  text-center  w-screen    bg-space ">
           <div className={lili.className}>
             <div id={id} className="text-white font-thin text-3xl">
               Trusted by well-known projects

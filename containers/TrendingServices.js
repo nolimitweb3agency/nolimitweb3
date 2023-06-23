@@ -4,6 +4,9 @@ import gecko from "../public/assets/gecko.png";
 import cry from "../public/assets/cry.png";
 import tw from "../public/assets/tw.png";
 import dex from "../public/assets/dex.png";
+import { Rowdies } from "next/font/google";
+
+const rowdie = Rowdies({ weight: "400", subsets: ["latin"] });
 
 
 export default function TrendingServices() {
@@ -12,7 +15,8 @@ export default function TrendingServices() {
       <div className="flex-col flex items-center text-xl pt-16 md:pt-36  justify-center  w-screen h-full ">
 
         <div className="flex flex-col items-start">
-        <div className="text-black text-4xl py-8 font-bold pl-20">Trending</div>
+          <div className={rowdie.className}>
+        <div className="text-white text-4xl py-8 font-bold pl-20">Trending</div></div>
         <div className="flex flex-wrap gap-4  justify-center  ">
           <Card
             logo={tw}

@@ -12,7 +12,7 @@ import Image from "next/image";
 const indie = Indie_Flower({ weight: "400", subsets: ["latin"] });
 export default function Projects({id}) {
   return (
-    <div className="h-72 flex flex-col items-center pt-12  text-center  w-screen    bg-blue-600">
+    <div className="h-72 flex flex-col items-center pt-12  text-center  w-screen bg-[#191970]">
       <div className={lili.className}>
         <div id={id} className="text-white font-thin text-3xl">
           Trusted by well-known projects

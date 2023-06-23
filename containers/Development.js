@@ -4,6 +4,9 @@ import gecko from "../public/assets/gecko.png";
 import ws from "../public/assets/ws.png";
 import dexs from "../public/assets/dexss.png";
 import sol from "../public/assets/sol.png";
+import {Rowdies } from "next/font/google";
+
+const rowdie = Rowdies({ weight: "400", subsets: ["latin"] });
 
 
 export default function Development() {
@@ -12,7 +15,8 @@ export default function Development() {
       <div className="flex-col flex items-center text-xl pt-16 md:pt-36  justify-center  w-screen h-full ">
 
         <div className="flex flex-col items-start">
-        <div className="text-black text-4xl py-8 font-bold ">Development</div>
+          <div className={rowdie.className}>
+        <div className="text-white text-4xl py-8 font-bold ">Development</div></div>
         <div className="flex flex-wrap gap-4  justify-center  ">
           <Card
             logo={sol}

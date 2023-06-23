@@ -1,9 +1,11 @@
 import Card from "../components/Card";
-import cmc from "../public/assets/cmc.png";
-import gecko from "../public/assets/gecko.png";
+
 import tg from "../public/assets/tg.png";
-import bscscan from "../public/assets/bscscan.png";
+
 import tw from "../public/assets/tw.png";
+import { Rowdies } from "next/font/google";
+
+const rowdie = Rowdies({ weight: "400", subsets: ["latin"] });
 
 
 export default function Shilling() {
@@ -11,7 +13,8 @@ export default function Shilling() {
     <div classname="flex flex-col justify-center items-center">
       <div className="flex-col flex items-center text-xl pt-16 md:pt-36  justify-center  w-screen h-full ">
         <div className="flex flex-col items-start">
-        <div className="text-black text-4xl py-8 font-bold ">Shilling</div>
+          <div className={rowdie.className}>
+        <div className="text-white text-4xl py-8 font-bold ">Shilling</div></div>
         <div className="flex flex-wrap gap-4  justify-center  ">
           <Card
             logo={tw}

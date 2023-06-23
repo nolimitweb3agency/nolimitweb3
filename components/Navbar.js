@@ -14,16 +14,16 @@ export default function Navbar() {
       block: "center",
       inline: "center",
     });
-  };
+  };//bg-gradient-to-r from-[#111111] from-10% via-[#222222] via-30% to-[#333333] to-90%
   return (
     <div>
-      <nav className="w-screen bg-[#E4FFFE] shadow">
+      <nav className="w-screen bg-space filter">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex w-full items-center justify-between py-3 md:py-5 md:block">
               <div className="flex justify-center items-center">
                 <div className={rowdie.className}>
-                  <div className="text-4xl text-black font-extrabold">
+                  <div className="text-4xl text-white font-extrabold">
                     No Limit Web3
                   </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Navbar() {
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-black"
+                      className="w-6 h-6 text-white"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -50,7 +50,7 @@ export default function Navbar() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-black"
+                      className="w-6 h-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -75,7 +75,7 @@ export default function Navbar() {
             >
               <div className={rowdie.className}>
                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
-                  <li className="text-black font-black text-2xl">
+                  <li className="text-white font-black text-2xl">
                   <div
                       className="cursor-pointer"
                       onClick={() => goToSection("#clients")}
@@ -83,7 +83,7 @@ export default function Navbar() {
                       clients
                     </div>
                   </li>
-                  <li className="text-black  font-black text-2xl">
+                  <li className="text-white  font-black text-2xl">
                   <div
                       className="cursor-pointer"
                       onClick={() => goToSection("#services")}
@@ -99,7 +99,7 @@ export default function Navbar() {
 
           <div className="w-1/12">
             <div className={rowdie.className}>
-              <div className="py-2 font-black hidden md:flex justify-center text-white rounded-xl cursor-pointer  px-4 bg-blue-600">
+              <div className="py-2 font-black hidden md:flex justify-center text-black rounded-xl cursor-pointer  px-4 bg-white">
                 Contact
               </div>
             </div>
