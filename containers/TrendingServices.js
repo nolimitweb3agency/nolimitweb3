@@ -46,13 +46,13 @@ export default function TrendingServices() {
           ></Card>
           <Card
             logo={cry}
-            title="CoinMarketCap trending service (Price prediction) [Top 1-6]"
-            price="$21,500"
+            title="Crypto.com trending service (Search bar) [Top 1-5] [24 hours]"
+            price="$400"
           ></Card>
           <Card
             logo={dex}
-            title="CoinMarketCap trending service (Price prediction) [Top 1-6]"
-            price="$21,500"
+            title="DexTools trending service (ETH, BSC, POLY, FTM, AVAX) [Top 1-10 or 1-3] [24 hours]"
+            price="$6,000"
           ></Card>
          
         </div>

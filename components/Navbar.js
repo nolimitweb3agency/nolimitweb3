@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import { Indie_Flower } from "next/font/google";
+import { Indie_Flower , Rowdies } from "next/font/google";
 
-const indie = Indie_Flower({ weight: "400", subsets: ["latin"] });
+const rowdie = Rowdies({ weight: "400", subsets: ["latin"] });
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -17,12 +17,12 @@ export default function Navbar() {
   };
   return (
     <div>
-      <nav className="w-screen bg-white shadow">
+      <nav className="w-screen bg-[#E4FFFE] shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex w-full items-center justify-between py-3 md:py-5 md:block">
               <div className="flex justify-center items-center">
-                <div className={indie.className}>
+                <div className={rowdie.className}>
                   <div className="text-4xl text-black font-extrabold">
                     No Limit Web3
                   </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <div className={indie.className}>
+              <div className={rowdie.className}>
                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
                   <li className="text-black font-black text-2xl">
                   <div
@@ -98,7 +98,7 @@ export default function Navbar() {
           </div>
 
           <div className="w-1/12">
-            <div className={indie.className}>
+            <div className={rowdie.className}>
               <div className="py-2 font-black hidden md:flex justify-center text-white rounded-xl cursor-pointer  px-4 bg-blue-600">
                 Contact
               </div>
