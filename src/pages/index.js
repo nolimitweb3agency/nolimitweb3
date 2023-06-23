@@ -6,6 +6,7 @@ import ListingServices from '../../containers/ListingServices'
 import TrendingServices from '../../containers/TrendingServices'
 import SentimentBoost from '../../containers/Sentiment'
 import Development from '../../containers/Development'
+import Shilling from '../../containers/Shilling'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
      <ListingServices></ListingServices>
      <TrendingServices></TrendingServices>
      <SentimentBoost></SentimentBoost>
+     <Shilling></Shilling>
      <Development></Development>
 
       
