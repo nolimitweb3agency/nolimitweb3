@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Hero from '../../containers/Hero'
-import Projects from '../../containers/Projects'
 import ListingServices from '../../containers/ListingServices'
 import TrendingServices from '../../containers/TrendingServices'
 import SentimentBoost from '../../containers/Sentiment'
 import Development from '../../containers/Development'
 import Shilling from '../../containers/Shilling'
 import Verification from '../../containers/Verification'
+import Footer from '../../containers/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +22,7 @@ export default function Home() {
      <Shilling></Shilling>
      <Development></Development>
      <Verification></Verification>
+     <Footer></Footer>
     </main>
   )
 }

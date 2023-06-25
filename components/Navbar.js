@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import logo from "../public/assets/whitelogo.png";
 import React, { useState } from "react";
 import { Indie_Flower , Rowdies } from "next/font/google";
 
@@ -24,7 +25,7 @@ export default function Navbar() {
               <div className="flex justify-center items-center">
                 <div className={rowdie.className}>
                   <div className="text-4xl text-white font-extrabold">
-                    No Limit Web3
+                    <Image src={logo} width={200}></Image>
                   </div>
                 </div>
               </div>

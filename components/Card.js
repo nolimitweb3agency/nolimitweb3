@@ -12,7 +12,7 @@ export default function Card({ logo, title, price }) {
       <div className={roboto.className}>
         
         <div className="flex flex-col justify-center">
-          <div className="bg-white h-60 w-full rounded-lg  justify-center items-center flex p-12">
+          <div className="bg-gray-300 h-60 w-full rounded-lg  justify-center items-center flex p-12">
             <Image src={logo}></Image>
           </div>
           <div className="h-[135px]">
