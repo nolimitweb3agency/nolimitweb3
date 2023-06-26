@@ -15,7 +15,7 @@ export default function Navbar() {
       block: "center",
       inline: "center",
     });
-  };//bg-gradient-to-r from-[#111111] from-10% via-[#222222] via-30% to-[#333333] to-90%
+  };
   return (
     <div>
       <nav className="w-screen bg-space filter">
@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="flex w-full items-center justify-between py-3 md:py-5 md:block">
               <div className="flex justify-center items-center">
                 <div className={rowdie.className}>
-                  <div className="text-4xl text-white font-extrabold">
+                  <div className="text-4xl text-white  font-extrabold">
                     <Image src={logo} width={200}></Image>
                   </div>
                 </div>
