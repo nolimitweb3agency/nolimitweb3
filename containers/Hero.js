@@ -13,8 +13,8 @@ const lili = Lilita_One({ weight: "400", subsets: ["latin"] });
 
 export default function Hero({ id }) {
   return (
-    <div className="flex flex-col justify-center items-center bg-hero bg-cover bg-center w-screen h-screen ">
-      <div className="flex-col flex items-center text-xl pt-[500px] md:pt-36 md:justify-start ">
+    <div className="flex flex-col justify-center items-center bg-hero bg-cover bg-center w-full h-full ">
+      <div className="flex-col flex items-center text-xl  md:pt-12 md:justify-start ">
         <div className={rowdie.className}>
           <div className="flex flex-wrap items-center justify-center ">
             <div className="text-white text-center text-4xl md:text-5xl lg:text-6xl md:px-0 px-16">

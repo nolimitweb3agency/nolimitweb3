@@ -100,9 +100,11 @@ export default function Navbar() {
 
           <div className="w-1/12">
             <div className={rowdie.className}>
-              <div className="py-2 font-black hidden md:flex justify-center text-black rounded-xl cursor-pointer  px-4 bg-white">
-                Contact
-              </div>
+            <Link legacyBehavior href="https://t.me/jeremieNLWeb3">
+              <a target="_blank">
+              <div className="py-2 hover:scale-110 font-black hidden md:flex justify-center text-black rounded-xl cursor-pointer  px-4 bg-white">
+              Contact
+              </div></a></Link>
             </div>
           </div>
         </div>

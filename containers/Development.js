@@ -1,8 +1,7 @@
 import Card from "../components/Card";
-import cmc from "../public/assets/cmc.png";
-import gecko from "../public/assets/gecko.png";
+
 import ws from "../public/assets/ws.png";
-import dexs from "../public/assets/dexss.png";
+
 import sol from "../public/assets/sol.png";
 import {Rowdies } from "next/font/google";
 
