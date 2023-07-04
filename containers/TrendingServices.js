@@ -36,7 +36,7 @@ export default function TrendingServices() {
           <Card
             logo={cmc}
             title="CoinMarketCap trending service (Most viewed) [Top 1-3 or 1-6] [48 hours]"
-            price="$2,500"
+            price="$3,500"
           ></Card>
           <Card
             logo={cmc}
@@ -51,7 +51,7 @@ export default function TrendingServices() {
           <Card
             logo={cry}
             title="Crypto.com trending service (Search bar) [Top 1-5] [24 hours]"
-            price="$400"
+            price="$1,500"
           ></Card>
           <Card
             logo={dex}
