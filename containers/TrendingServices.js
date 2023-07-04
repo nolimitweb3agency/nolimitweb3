@@ -51,7 +51,7 @@ export default function TrendingServices() {
           <Card
             logo={cry}
             title="Crypto.com trending service (Search bar) [Top 1-5] [24 hours]"
-            price="$1,500"
+            price="$4,000"
           ></Card>
           <Card
             logo={dex}
