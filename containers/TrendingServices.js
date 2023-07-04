@@ -31,7 +31,7 @@ export default function TrendingServices() {
            <Card
             logo={gecko}
             title="CoinGecko trending service (Most viewed) [Top 1-5] [48 hours]"
-            price="$1,500"
+            price="$2,500"
           ></Card>
           <Card
             logo={cmc}
