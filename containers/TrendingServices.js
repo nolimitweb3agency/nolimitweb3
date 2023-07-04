@@ -26,7 +26,7 @@ export default function TrendingServices() {
           <Card
             logo={gecko}
             title="CoinGecko trending service (Search bar) [Top 1-5] [1 or 24 hours]"
-            price="$150"
+            price="$1,500"
           ></Card>
            <Card
             logo={gecko}

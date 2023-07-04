@@ -32,7 +32,7 @@ export default function Hero({ id }) {
        
         <div className="md:flex w-full md:px-24 justify-center pt-4 px-4 md:justify-between ">
           <Box
-            title="$48M"
+            title="$9M"
             subtitle="Average market cap at ATH of our clients"
             symbol="🚀"
           ></Box>

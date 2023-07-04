@@ -25,11 +25,7 @@ export default function Verification() {
             title="TikTok verification service (Blue tick/checkmark badge) [No login] [2-3 weeks]"
             price="$4,000"
           ></Card>
-          <Card
-            logo={tw}
-            title="Twitter verification service (Blue tick/checkmark badge) [No login] [ in 24 hours]"
-            price="$10,000"
-          ></Card>
+        
           
         </div>
       </div></div>
